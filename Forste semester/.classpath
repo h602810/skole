@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Uke 34"/>
+	<classpathentry kind="src" path="Uke 35"/>
+	<classpathentry kind="src" path="Uke 36"/>
+	<classpathentry kind="src" path="Uke 37"/>
+	<classpathentry kind="src" path="Uke 38"/>
+	<classpathentry kind="src" path="Uke 39"/>
+	<classpathentry kind="src" path="Uke 39 - Bondesjakk (V1)"/>
+	<classpathentry kind="src" path="Uke 40"/>
+	<classpathentry kind="src" path="Uke 40 - Varelager (B1 + B2)"/>
+	<classpathentry kind="src" path="Uke 42"/>
+	<classpathentry kind="src" path="Uke 43"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/kjels/Documents/skole/Informasjons Teknologi/1. semester/DAT100/DAT100 workspace/EasyGraphicsTest/easygraphics.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

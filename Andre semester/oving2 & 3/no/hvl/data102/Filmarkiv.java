@@ -93,6 +93,27 @@ public class Filmarkiv implements FilmarkivADT {
 		return antall;
 	}
 	
+	@Override
+	public Film[] soekFilmskaper(String delstreng) {
+		int lengde = 0;
+		for (int i = 0;	i < antall; i++) {
+			if (filmarkiv[i].getFilmskaper().contains(delstreng)) {
+				lengde++;
+			}
+		}
+		
+		Film[] filmer = new Film[lengde];
+		int funnet = 0;
+		for (int i = 0; i < antall; i++) {
+			if (filmarkiv[i].getFilmskaper().contains(delstreng)) {
+				filmer[funnet] = filmarkiv[i];
+				funnet++;
+			}
+		}
+		
+		return filmer;
+	}
+	
 	private Film[] trimTab(Film[] tab, int n) {
 		// n er antall elementer
 		Film[] nytab = new Film[n];

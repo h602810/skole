@@ -43,24 +43,31 @@ public class Tekstgrensesnitt {
 	}
 	
 	// Skriver ut alle Filmer av en produsent / en gruppe
-	public void skrivUtFilmProdusent(FilmarkivADT filmer, String delstreng) {
-		Film[] filmGruppe = new Film[filmer.antall()];
-		for (int i = 0; i < filmGruppe.length; i++) {
-			if (filmGruppe[i].getFilmskaper().equals(delstreng)) {
-				System.out.println(filmGruppe[i].getFilmskaper());
-			}
+	public void skrivUtFilmProdusent(FilmarkivADT filma, String delstreng) {
+		Film[] filmGruppe = filma.soekFilmskaper(delstreng);
+		for (int i = 0; i < filmGruppe.length && filmGruppe[i] != null; i++) {
+			System.out.println(filmGruppe[i].getFilmskaper());
 		}
-		
 	}
 	
 	// Skrive ut en enkel statistikk som inneholder antall Filmer totalt
 	// og hvor mange det er i hver sjanger
 	public void skrivUtStatistikk(FilmarkivADT filma) {
-		Film[] filmer = new Film[filma.antall()];
-		for (int i = 0; i < filmer.length; i++) {
-			
-		}
+		int antall = filma.antall();
+		int action = filma.antall(Sjanger.ACTION);
+		int drama = filma.antall(Sjanger.DRAMA);
+		int history = filma.antall(Sjanger.HISTORY);
+		int scifi = filma.antall(Sjanger.SCIFI);
+		int war = filma.antall(Sjanger.WAR);
+		int comedy = filma.antall(Sjanger.COMEDY);
+		
+		System.out.println("Antall filmer total: " + antall + "\n" +
+							"Antall action filmer: " + action + "\n" +
+							"Antall drama filmer: " + drama + "\n" +
+							"Antall history filmer: " + history + "\n" +
+							"Antall scifi filmer: " + scifi + "\n" + 
+							"Antall war filmer: " + war + "\n" +
+							"Antall comedy filmer: " + comedy + "\n");
 	}
-	// ... Ev. andre metoder
 	
 }

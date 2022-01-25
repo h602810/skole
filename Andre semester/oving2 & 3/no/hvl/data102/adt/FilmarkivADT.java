@@ -43,4 +43,11 @@ public interface FilmarkivADT {
 	* @return antall filmer i arkivet
 	*/
 	int antall();
+
+	/**
+	 * Søker og henter Filmer med en gitt delstreng til filmskaper.
+	 * @param delstreng som må være i filmskaperen
+	 * @return tabell med filmer som har delstreng i filmskaperen
+	 */
+	Film[] soekFilmskaper(String delstreng);
 }

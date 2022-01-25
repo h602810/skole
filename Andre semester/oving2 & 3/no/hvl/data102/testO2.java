@@ -1,6 +1,6 @@
 package no.hvl.data102;
 
-public class test {
+public class testO2 {
 	
 	public static void main(String[] args) {
 		

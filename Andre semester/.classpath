@@ -3,6 +3,19 @@
 	<classpathentry kind="src" path="oving1"/>
 	<classpathentry kind="src" path="oving2 &amp; 3"/>
 	<classpathentry kind="src" path="oving3 - oppg4"/>
+	<classpathentry kind="src" path="kladdoppg2"/>
+	<classpathentry kind="src" path="kladdoppg4"/>
+	<classpathentry kind="src" path="oving4"/>
+	<classpathentry kind="src" path="oving5 - oppg4"/>
+	<classpathentry kind="src" path="oving5 - oppg1"/>
+	<classpathentry kind="src" path="oving5 - oppg1test"/>
+	<classpathentry kind="src" path="oving5 - oppg2"/>
+	<classpathentry kind="src" path="oving5 - oppg3"/>
+	<classpathentry kind="src" path="oving5 - oppg3test"/>
+	<classpathentry kind="src" path="oving6 - oppg1"/>
+	<classpathentry kind="src" path="oving6 - oppg2"/>
+	<classpathentry kind="src" path="oving7 - oppg2+3"/>
+	<classpathentry kind="src" path="oving8"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
 			<attribute name="module" value="true"/>
